@@ -3,4 +3,6 @@ repositório para compartilhar o meu progresso nos estudos de ciência da comput
 
 ## links úteis:
 
-## leituras recomendadas:
+## conteúdo complementar:
+### livros
+- ciência da computação: uma visão abrangente (j. glenn brookshear);
