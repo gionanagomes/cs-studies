@@ -53,17 +53,7 @@
 - dividir sucessivamente por 2 o número decimal e os quocientes que vão sendo obtidos, até que o quociente de uma das divisões seja 0;
 - o resultado é a sequência de baixo para cima de todos os restos obtidos.
 
-25 / 2
-
- 1   12 / 2
-
-      0   6 / 2
-         
-          0   3 / 2
-             
-              1   1 / 2
-
-                  1   0
+![imagem](https://prnt.sc/xbK2FCHuEATw)
 = 11001
 
 | **decimal** | **binário** |  | **decimal** | **binário** |
