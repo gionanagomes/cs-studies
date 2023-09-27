@@ -10,6 +10,7 @@
 - 6 meses (de que ano?).
 
 ### <ins>*elementos fundamentais*</ins>
+#### <ins>*como devemos tratar os dados?*</ins>
 - os dados são os pilares para qualquer aplicação de ciência de dados;
 
 ***tipos***: podem ser numéricos, datas e alfanuméricos;
@@ -19,6 +20,7 @@
 ***armazenamento***: servidor de banco de dados local ou na nuvem.
 
 ### <ins>*big data*</ins>
+#### <ins>*novas tecnologias => mais dados*</ins>
 ***volume***: quantidade de dados;
 
 ***velocidade***: geração e processamento;
@@ -30,12 +32,20 @@
 ***valor***: qual a vantagem competitiva.
 
 ### <ins>*sequência lógica*</ins>
+#### <ins>*o que queremos alcançar?*</ins>
 - dados;
 - informação;
 - conhecimento.
 
 ## *o que é tomada de decisão?*
+### <ins>*tomada de decisão*</ins>
+#### <ins>*grande motivação da ciência de dados*</ins>
+- o que fazer? (definir estratégias e táticas);
+- quando agir? (escolher o momento adequado);
+- quem são os responsáveis? (identificar e atribuir papéis de responsabilidade para os indivíduos).
+
 ### <ins>*fundamentação*</ins>
+#### <ins>*em que se basear para tomar decisões?*</ins>
 ***dados confiáveis***: somente com dados corretos podemos fazer mensurações corretas;
 
 ***processos bem definidos***: análises, aprendizado de máquina, estatística, otimização;
@@ -43,6 +53,7 @@
 ***viabilidade***: profissionais bem preparados, tecnologia, demanda.
 
 ### <ins>*impactos*</ins>
+#### <ins>*estabelecer metas e trabalhar para alcança-las*</ins>
 ***maximizar retorno***: produtos e serviços que atendam às demandas dos clientes;
 
 ***aumentar engajamento***: reconhecimento de qualidade pelos usuários;
@@ -54,17 +65,20 @@
 ***ações eficazes***: resolver problemas da melhor forma.
 
 ### <ins>*tríade da ciência de dados*</ins>
+#### <ins>*como concretizar uma solução eficaz?*</ins>
 - ciência;
 - tecnologia;
 - conhecimento do negócio.
 
 ## *estatística e ciência de dados*
 ### <ins>*o papel da estatística*</ins>
+#### <ins>*metodologia de trabalho bem estabelecida*</ins>
 - como organizar os dados? (precisamos tratar os dados);
 - quais as informações relevantes? (precisamos estabelecer um guia de prioridades);
 - quais métodos devemos aplicar? (devemos escolher as técnicas adequadas).
 
 ### <ins>*alguns elementos*</ins>
+#### <ins>*como a estatística auxilia a ciência de dados?*</ins>
 ***visualização de dados***: ajuda-nos a ter uma melhor compreensão do que estamos lidando;
 
 ***distribuição de dados***: identificação de padrões (caso existam);
@@ -72,6 +86,7 @@
 ***estimativas e classificações***: métodos específicos e bem fundamentados.
 
 ### <ins>*impactos*</ins>
+#### <ins>*confiança nos resultados*</ins>
 ***engajar as pessoas***: os gráficos e tabelas são uma forma das pessoas se engajarem;
 
 ***confiar no processo***: não estamos “reinventando a roda”;
@@ -83,6 +98,7 @@
 ***ter elementos de comparação***: comparar o estimado e o obtido.
 
 ### <ins>*ganhos da estatística para a ciência de dados*</ins>
+#### <ins>*como encontrar relações relevantes?*</ins>
 - metodologia bem estabelecida (variáveis de resumo, distribuições, séries temporais, …).
 
 ## *linguagem de programação python*
