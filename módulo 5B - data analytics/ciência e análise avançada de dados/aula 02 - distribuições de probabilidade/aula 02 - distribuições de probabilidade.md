@@ -85,6 +85,7 @@
 - neste sentido, as variáveis aleatórias são um importante instrumento para alcançarmos esse objetivo.
 
 ## *exemplo prático de distribuições de probabilidade*
+### <ins>*a distribuição binomial*</ins>
 - fórmula para a função de probabilidade binomial dada por:
 $P(x;p;n)=(\frac{n}{x})p^x(1-p)^{(n-x)},\ sendo \ que \ x \in \\{0,...,n\\} $
 
@@ -93,3 +94,11 @@ $(\frac{n}{x})= \frac{n!}{x!(n-x)!}$
 
 - a distribuição binomial é usada para obter a probabilidade de observar:
   - $x$ sucessos em $n$ tentativas, com a probabilidade de sucesso em uma única tentativa dada por $p$.
+
+### <ins>*exemplo conceitual*</ins>
+- vamos supor que queiramos saber a probabilidade específica de que o lado "cara" aparecerá exatamente 10 vezes depois de 20 lançamentos de moeda;
+- temos que calcular a expressão dada por: 
+$P(10;0,5;20)=(\frac{20}{10}) 0,5^{10}(1-0,5)^{(20-10)}$
+
+- ao calcular a expressão, obtemos que:
+$P(10;0,5;20)=0,176$
