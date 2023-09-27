@@ -11,15 +11,21 @@
 ### <ins>*elementos fundamentais*</ins>
 #### <ins>*o que precisamos levar em consideração?*</ins>
 ***eventos***: definir os resultados possíveis;
+
 ***repetições***:estabelecer a frequência de testes;
+
 ***experimento***: garantir que o processo seja "honesto".
 
 ### <ins>*distribuições de probabilidade*</ins>
 #### <ins>*quais as principais?*</ins>
 ***normal***: a mais utilizada de todas as distribuições;
+
 ***binomial***: em situações com dois resultados possíveis;
+
 ***multinomial***: extensão da distribuição binomial;
+
 ***poisson***: muito utilizada em "processos de chegada";
+
 ***exponencial negativa***: muito utilizada em "processos de saída".
 
 ### <ins>*utilidade das distribuições*</ins>
@@ -31,6 +37,7 @@
 ### <ins>*o espaço amostral*</ins>
 #### <ins>*conjunto dos resultados possíveis*</ins>
 ***espaço amostral do lançamento de uma moeda***: {"cara", "coroa"};
+
 ***espaço amostral do lançamento de um dado***: {1, 2, 3, 4, 5, 6}.
 
 ### <ins>*amostra*</ins>
@@ -46,6 +53,7 @@
 ### <ins>*eventos*</ins>
 #### <ins>*subconjunto do espaço amostral*</ins>
 ***resultado possível do lançamento de uma moeda***: {"cara"};
+
 ***resultados possíveis do lançamento de um dado***: {1, 3, 5} #números ímpares.
 
 ### <ins>*a importância das definições*</ins>
@@ -56,16 +64,19 @@
 ### <ins>*variável aleatória*</ins>
 #### <ins>*variável cujos valores possíveis dependem do resultado de um experimento probabilístico*</ins>
 ***discretas***: pode assumir valores finitos ou contáveis;
+
 ***contínuas***: pode assumir qualquer valor dentro de um intervalo.
 
 ### <ins>*variável aleatória discreta*</ins>
 #### <ins>*variáveis que podem assumir valores finitos ou contáveis*</ins>
 ***lançamento de uma moeda***: qual o número de vezes que apareceu uma face "cara"?;
+
 ***lançamento de um dado***: qual o número de vezes que apareceu um número "ímpar"?.
 
 ### <ins>*variável aleatória contínua*</ins>
 #### <ins>*podem assumir qualquer valor dentro de um determinado intervalo*</ins>
 ***estudo de fenômenos naturais***: qual o índice pluviométrico de uma determinada região?;
+
 ***estudo de confiabilidade de equipamentos***: qual a vida média dos motores dos caminhos de um determinado fabricante?.
 
 ### <ins>*a importância das variáveis aleatórias*</ins>
@@ -75,7 +86,7 @@
 
 ## *exemplo prático de distribuições de probabilidade*
 - fórmula para a função de probabilidade binomial dada por:
-$P(x;p;n)=(\frac{n}{x})p^x(1-p)^{(n-x)},\: sendo \: que \: x \in \big\{0,...,n\big\}$
+$P(x;p;n)=(\frac{n}{x})p^x(1-p)^{(n-x)},\ sendo \ que \ x \in \\{0,...,n\\} $
 
 - sendo que:
 $(\frac{n}{x})= \frac{n!}{x!(n-x)!}$
