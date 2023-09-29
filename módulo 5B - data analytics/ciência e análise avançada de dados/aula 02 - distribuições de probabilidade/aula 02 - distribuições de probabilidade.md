@@ -87,7 +87,7 @@
 ## *exemplo prático de distribuições de probabilidade*
 ### <ins>*a distribuição binomial*</ins>
 - fórmula para a função de probabilidade binomial dada por:
-$P(x;p;n)=(\frac{n}{x})p^x(1-p)^{(n-x)},\ sendo \ que \ x \in \\{0,...,n\\} $
+$P(x;p;n)=(\frac{n}{x})p^x(1-p)^{(n-x)},\ sendo \ que \ x \in \\{0,...,n\\}$
 
 - sendo que:
 $(\frac{n}{x})= \frac{n!}{x!(n-x)!}$
@@ -102,3 +102,22 @@ $P(10;0,5;20)=(\frac{20}{10}) 0,5^{10}(1-0,5)^{(20-10)}$
 
 - ao calcular a expressão, obtemos que:
 $P(10;0,5;20)=0,176$
+
+### <ins>*exemplo no python*</ins>
+````python
+import matplotlib.pyplot as plt
+import numpy as np
+from scipy.stats import binom
+
+n = 20
+p = 0.5
+x = np.arange(0, n + 1)
+binomial = binom.pmf(k = x, n = n, p = p)
+
+plt.bar(x, binomial)
+plt.xlabel("x", fontsize = 12)
+plt.ylabel("probabilidade", fontsize = 12)
+plt.xlim([-1, n + 1])
+plt.title("distribuição binomial, n = {0}, p = {1}".format(n, p), fontsize = 15)
+plt.show()
+````
