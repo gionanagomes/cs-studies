@@ -43,7 +43,7 @@ a = 11001100
 - cada algarismo tem um valor posicional
   - cada algarismo tem um peso de acordo com a sua posição na representação do valor.
 
-![](https://paperx-dex-assets.s3.sa-east-1.amazonaws.com/images/1648683279088-FKnmBCBbm7.png)
+![](img/img-1.png)
 
 ### <ins>*sistema binário*</ins>
 - é o sistema mais utilizado por máquinas, uma vez que os sistemas digitais trabalham internamente com dois estados (ligado/desligado, verdadeiro/falso, aberto/fechado);
@@ -67,7 +67,7 @@ a = 11001100
 - dividir sucessivamente por 2 o número decimal e os quocientes que vão sendo obtidos, até que o quociente de uma das divisões seja 0;
 - o resultado é a sequência de baixo para cima de todos os restos obtidos:
 
-![](https://paperx-dex-assets.s3.sa-east-1.amazonaws.com/images/1648683308459-IMNZE7f6Ml.png)
+![](img/img-2.png)
 
 | decimal | binário |  | decimal | binário |
 | --- | --- | --- | --- | --- |
@@ -88,13 +88,13 @@ a = 11001100
 - divisões sucessivas por 8;
 - o resultado é a sequência de baixo para cima de todos os restos obtidos:
 
-![](https://paperx-dex-assets.s3.sa-east-1.amazonaws.com/images/1648683357698-DJXdOEZ5Ks.png)
+![](img/img-3.png)
 
 ### <ins>*decimal para hexadecimal*</ins>
 
 - divisões sucessivas por 16:
 
-![](https://paperx-dex-assets.s3.sa-east-1.amazonaws.com/images/1648683381682-5xWMmC15GH.png)
+![](img/img-4.png)
 
 | decimal | hexa |  | decimal | hexa |  | decimal | hexa |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -118,7 +118,7 @@ a = 11001100
 
 - basta calcular a soma de cada um dos dígitos do número binário multiplicado por 2 (que é a sua base) elevado à posição colunar do número, que, da direita para a esquerda começa em 0:
 
-![](https://paperx-dex-assets.s3.sa-east-1.amazonaws.com/images/1648683462149-lb83KugUbU.png)
+![](img/img-5.png)
 
 ### <ins>*binário para octal*</ins>
 
@@ -134,13 +134,13 @@ a = 11001100
   - ao final, simplesmente une-se os resultados em um só.
 - caso o número de dígitos do número binário não seja múltiplo de 4, completa-se os dígitos à esquerda com 0:
 
-![](https://paperx-dex-assets.s3.sa-east-1.amazonaws.com/images/1648683503099-pr9k7WDhAZ.png)
+![](img/img-6.png)
 
 ### <ins>*octal para decimal*</ins>
 
 - obtida através da soma dos dígitos do número octal multiplicados pela base 8 elevada à posição colunar do dígito, começando em 0 da direita para esquerda:
 
-![](https://paperx-dex-assets.s3.sa-east-1.amazonaws.com/images/1648683534329-YGiz40ODDs.png)
+![](img/img-7.png)
 
 ### <ins>*octal para binário*</ins>
 
@@ -151,23 +151,23 @@ a = 11001100
 
 - transforma-se primeiro o octal em binário e em seguida o binário em hexadecimal:
 
-![](https://paperx-dex-assets.s3.sa-east-1.amazonaws.com/images/1648683553074-2Z1UYxrxpN.png)
+![](img/img-8.png)
 
 ### <ins>*hexadecimal para decimal*</ins>
 
 - realizada através da soma dos dígitos hexadecimal multiplicados pela base 16 elevada à posição colunar contando da direita para a esquerda, começando em 0:
 
-![](https://paperx-dex-assets.s3.sa-east-1.amazonaws.com/images/1648683577490-OFbl460t4b.png)
+![](img/img-9.png)
 
 ### <ins>*hexadecimal para binário*</ins>
 
 - decompõe-se o número hexadecimal diretamente em binários de 4 dígitos;
   - os zeros mais à esquerda podem ser omitidos.
 
-![](https://paperx-dex-assets.s3.sa-east-1.amazonaws.com/images/1648683605200-aX8zhpQaNm.png)
+![](img/img-10.png)
 
 ### <ins>*hexadecimal para octal*</ins>
 
 - transforma-se primeiro o hexadecimal em binário e em seguida o binário em octal:
 
-![](https://paperx-dex-assets.s3.sa-east-1.amazonaws.com/images/1648683610593-3AJSXaAwD2.png)
+![](img/img-11.png)
