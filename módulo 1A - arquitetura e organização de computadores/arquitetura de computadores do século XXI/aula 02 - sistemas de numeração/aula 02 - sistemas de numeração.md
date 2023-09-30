@@ -38,36 +38,36 @@ a = 11001100
 ***hexadecimal (base 16)***: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F.
 
 ### <ins>*sistema decimal*</ins>
-- é o sistema mais utilizado pelos seres humanos
-- constituído por 10 algarismos
+- é o sistema mais utilizado pelos seres humanos;
+- constituído por 10 algarismos;
 - cada algarismo tem um valor posicional
-  - cada algarismo tem um peso de acordo com a sua posição na representação do valor
+  - cada algarismo tem um peso de acordo com a sua posição na representação do valor.
+
+![](https://paperx-dex-assets.s3.sa-east-1.amazonaws.com/images/1648683279088-FKnmBCBbm7.png)
 
 ### <ins>*sistema binário*</ins>
-- é o sistema mais utilizado por máquinas, uma vez que os sistemas digitais trabalham internamente com dois estados (ligado/desligado, verdadeiro/falso, aberto/fechado)
-- utiliza os símbolos: 0 e 1
-  - cada símbolo é designado por bit (binary digit)
+- é o sistema mais utilizado por máquinas, uma vez que os sistemas digitais trabalham internamente com dois estados (ligado/desligado, verdadeiro/falso, aberto/fechado);
+- utiliza os símbolos: 0 e 1;
+  - cada símbolo é designado por bit (binary digit).
 
 ### <ins>*sistema octal*</ins>
-- é um sistema de numeração de base 8
-  - recorre a oito símbolos (0, 1, 2, 3, 4, 5, 6, 7) para a representação de um determinado valor
+- é um sistema de numeração de base 8;
+  - recorre a oito símbolos (0, 1, 2, 3, 4, 5, 6, 7) para a representação de um determinado valor.
 
-### ***sistema hexadecimal***
-- muito utilizada na programação de microprocessadores, especialmente nos equipamentos de estudo e sistemas de desenvolvimento
-- utiliza os símbolos: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 do sistema decimal e as letras A, B, C, D, E, F
+### <ins>*sistema hexadecimal*</ins>
+- muito utilizada na programação de microprocessadores, especialmente nos equipamentos de estudo e sistemas de desenvolvimento;
+- utiliza os símbolos: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 do sistema decimal e as letras A, B, C, D, E, F.
 
-*equivalências*: A = 10, B = 11, C = 12, D = 13, E = 14, F = 15
-
----
+***equivalências***: A = 10, B = 11, C = 12, D = 13, E = 14, F = 15
 
 ## *conversões de base decimal*
 
-### ***decimal para binário***
+### <ins>*decimal para binário*</ins>
 
-- dividir sucessivamente por 2 o número decimal e os quocientes que vão sendo obtidos, até que o quociente de uma das divisões seja 0
-- o resultado é a sequência de baixo para cima de todos os restos obtidos
+- dividir sucessivamente por 2 o número decimal e os quocientes que vão sendo obtidos, até que o quociente de uma das divisões seja 0;
+- o resultado é a sequência de baixo para cima de todos os restos obtidos:
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/703986d8-1978-4f04-a378-9a904881fc39/Untitled.png)
+![](https://paperx-dex-assets.s3.sa-east-1.amazonaws.com/images/1648683308459-IMNZE7f6Ml.png)
 
 | decimal | binário |  | decimal | binário |
 | --- | --- | --- | --- | --- |
@@ -83,18 +83,18 @@ a = 11001100
 | 9 | 1001 |  | 20 | 10100 |
 | 10 | 1010 |  | … | … |
 
-### ***decimal para octal***
+### <ins>*decimal para octal*</ins>
 
-- divisões sucessivas por 8
-- o resultado é a sequência de baixo para cima de todos os restos obtidos
+- divisões sucessivas por 8;
+- o resultado é a sequência de baixo para cima de todos os restos obtidos:
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c1f4f27d-28de-49a5-b0d4-16be1960250c/Untitled.png)
+![](https://paperx-dex-assets.s3.sa-east-1.amazonaws.com/images/1648683357698-DJXdOEZ5Ks.png)
 
-### ***decimal para hexadecimal***
+### <ins>*decimal para hexadecimal*</ins>
 
-- divisões sucessivas por 16
+- divisões sucessivas por 16:
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c6e7018c-e8f7-4b14-851e-159b8adced07/Untitled.png)
+![](https://paperx-dex-assets.s3.sa-east-1.amazonaws.com/images/1648683381682-5xWMmC15GH.png)
 
 | decimal | hexa |  | decimal | hexa |  | decimal | hexa |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -114,62 +114,60 @@ a = 11001100
 
 ## *conversões de base binária, octal e hexadecimal*
 
-### ***binário para decimal***
+### <ins>*binário para decimal*</ins>
 
-- basta calcular a soma de cada um dos dígitos do número binário multiplicado por 2 (que é a sua base) elevado à posição colunar do número, que, da direita para a esquerda começa em 0
+- basta calcular a soma de cada um dos dígitos do número binário multiplicado por 2 (que é a sua base) elevado à posição colunar do número, que, da direita para a esquerda começa em 0:
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7e85db66-32a6-451b-bbb0-605c95a81432/Untitled.png)
+![](https://paperx-dex-assets.s3.sa-east-1.amazonaws.com/images/1648683462149-lb83KugUbU.png)
 
-### ***binário para octal***
+### <ins>*binário para octal*</ins>
 
-- separa-se os dígitos do número binário em grupos de 3 bits da esquerda para a direita
-    - em seguida transforma-se cada grupo em octal
-    - ao final une-se os resultados
-- caso o número de dígitos do número binário não seja múltiplo de 3, completa-se os dígitos a esquerda com zeros
+- separa-se os dígitos do número binário em grupos de 3 bits da esquerda para a direita;
+  - em seguida transforma-se cada grupo em octal;
+  - ao final une-se os resultados.
+- caso o número de dígitos do número binário não seja múltiplo de 3, completa-se os dígitos a esquerda com zeros.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f1bf0330-1e72-41d3-ac7e-02ca3b68be5c/Untitled.png)
+### <ins>*binário para hexadecimal*</ins>
 
-### ***binário para hexadecimal***
+- separa-se o número binário em grupos de 4 bits, da direita para a esquerda;
+  - em seguida, transforma-se cada grupo de 4 bits em hexadecimal;
+  - ao final, simplesmente une-se os resultados em um só.
+- caso o número de dígitos do número binário não seja múltiplo de 4, completa-se os dígitos à esquerda com 0:
 
-- separa-se o número binário em grupos de 4 bits, da direita para a esquerda
-    - em seguida, transforma-se cada grupo de 4 bits em hexadecimal
-    - ao final, simplesmente une-se os resultados em um só
-- caso o número de dígitos do número binário não seja múltiplo de 4, completa-se os dígitos à esquerda com 0
+![](https://paperx-dex-assets.s3.sa-east-1.amazonaws.com/images/1648683503099-pr9k7WDhAZ.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5ca73537-7d2d-4967-828a-c6761c1ebab8/Untitled.png)
+### <ins>*octal para decimal*</ins>
 
-### ***octal para decimal***
+- obtida através da soma dos dígitos do número octal multiplicados pela base 8 elevada à posição colunar do dígito, começando em 0 da direita para esquerda:
 
-- obtida através da soma dos dígitos do número octal multiplicados pela base 8 elevada à posição colunar do dígito, começando em 0 da direita para esquerda
+![](https://paperx-dex-assets.s3.sa-east-1.amazonaws.com/images/1648683534329-YGiz40ODDs.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/972879b8-0262-40d7-b11a-b3a6f229894a/Untitled.png)
+### <ins>*octal para binário*</ins>
 
-### ***octal para binário***
+- decompõe-se o número octal diretamente em binários de 3 dígitos;
+  - os zeros mais à esquerda do resultado binário podem ser omitidos.
 
-- decompõe-se o número octal diretamente em binários de 3 dígitos
-    - os zeros mais à esquerda do resultado binário podem ser omitidos
+### <ins>*octal para hexadecimal*</ins>
 
-### ***octal para hexadecimal***
+- transforma-se primeiro o octal em binário e em seguida o binário em hexadecimal:
 
-- transforma-se primeiro o octal em binário e em seguida o binário em hexadecimal
+![](https://paperx-dex-assets.s3.sa-east-1.amazonaws.com/images/1648683553074-2Z1UYxrxpN.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1c2aea88-bcac-456e-8390-89a210d629e9/Untitled.png)
+### <ins>*hexadecimal para decimal*</ins>
 
-### ***hexadecimal para decimal***
+- realizada através da soma dos dígitos hexadecimal multiplicados pela base 16 elevada à posição colunar contando da direita para a esquerda, começando em 0:
 
-- realizada através da soma dos dígitos hexadecimal multiplicados pela base 16 elevada à posição colunar contando da direita para a esquerda, começando em 0
+![](https://paperx-dex-assets.s3.sa-east-1.amazonaws.com/images/1648683577490-OFbl460t4b.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f45f91ac-ecc2-48e3-9f24-c1f272a97464/Untitled.png)
+### <ins>*hexadecimal para binário*</ins>
 
-### ***hexadecimal para binário***
+- decompõe-se o número hexadecimal diretamente em binários de 4 dígitos;
+  - os zeros mais à esquerda podem ser omitidos.
 
-- decompõe-se o número hexadecimal diretamente em binários de 4 dígitos
-    - os zeros mais à esquerda podem ser omitidos
+![](https://paperx-dex-assets.s3.sa-east-1.amazonaws.com/images/1648683605200-aX8zhpQaNm.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/99dd960e-42fd-44e6-b2d4-e905cea8a0f5/Untitled.png)
+### <ins>*hexadecimal para octal*</ins>
 
-### ***hexadecimal para octal***
+- transforma-se primeiro o hexadecimal em binário e em seguida o binário em octal:
 
-- transforma-se primeiro o hexadecimal em binário e em seguida o binário em octal
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/65d0b2e6-a7b7-4f98-b209-4c1eb201fc81/Untitled.png)
+![](https://paperx-dex-assets.s3.sa-east-1.amazonaws.com/images/1648683610593-3AJSXaAwD2.png)
