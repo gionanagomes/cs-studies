@@ -36,9 +36,9 @@
 ## *espaço amostral, amostra e eventos*
 ### <ins>*o espaço amostral*</ins>
 #### <ins>*conjunto dos resultados possíveis*</ins>
-***espaço amostral do lançamento de uma moeda***: {"cara", "coroa"};
+***espaço amostral do lançamento de uma moeda***: ${"cara", "coroa"}$;
 
-***espaço amostral do lançamento de um dado***: {1, 2, 3, 4, 5, 6}.
+***espaço amostral do lançamento de um dado***: ${1, 2, 3, 4, 5, 6}$.
 
 ### <ins>*amostra*</ins>
 #### <ins>*conjunto do espaço amostral associado a uma origem*</ins>
@@ -52,9 +52,9 @@
 
 ### <ins>*eventos*</ins>
 #### <ins>*subconjunto do espaço amostral*</ins>
-***resultado possível do lançamento de uma moeda***: {"cara"};
+***resultado possível do lançamento de uma moeda***: ${"cara"}$;
 
-***resultados possíveis do lançamento de um dado***: {1, 3, 5} #números ímpares.
+***resultados possíveis do lançamento de um dado***: ${1, 3, 5} \ #números \ ímpares$.
 
 ### <ins>*a importância das definições*</ins>
 #### <ins>*como tomar decisões sem saber o que se quer medir?*</ins>
@@ -115,9 +115,12 @@ x = np.arange(0, n + 1)
 binomial = binom.pmf(k = x, n = n, p = p)
 
 plt.bar(x, binomial)
-plt.xlabel("x", fontsize = 12)
-plt.ylabel("probabilidade", fontsize = 12)
+plt.xlabel("x", 
+  fontsize = 12)
+plt.ylabel("probabilidade", 
+  fontsize = 12)
 plt.xlim([-1, n + 1])
-plt.title("distribuição binomial, n = {0}, p = {1}".format(n, p), fontsize = 15)
+plt.title("distribuição binomial, n = {0}, p = {1}".format(n, p), 
+  fontsize = 15)
 plt.show()
 ````
