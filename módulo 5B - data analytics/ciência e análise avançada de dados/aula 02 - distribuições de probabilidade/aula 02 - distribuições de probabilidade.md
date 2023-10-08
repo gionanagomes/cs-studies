@@ -36,9 +36,9 @@
 ## *espaço amostral, amostra e eventos*
 ### <ins>*o espaço amostral*</ins>
 #### <ins>*conjunto dos resultados possíveis*</ins>
-***espaço amostral do lançamento de uma moeda***: ${"cara", "coroa"}$;
+***espaço amostral do lançamento de uma moeda***: $\\{'cara', 'coroa'\\}$;
 
-***espaço amostral do lançamento de um dado***: ${1, 2, 3, 4, 5, 6}$.
+***espaço amostral do lançamento de um dado***: $\\{1, 2, 3, 4, 5, 6\\}$.
 
 ### <ins>*amostra*</ins>
 #### <ins>*conjunto do espaço amostral associado a uma origem*</ins>
@@ -52,9 +52,9 @@
 
 ### <ins>*eventos*</ins>
 #### <ins>*subconjunto do espaço amostral*</ins>
-***resultado possível do lançamento de uma moeda***: ${"cara"}$;
+***resultado possível do lançamento de uma moeda***: $\\{'cara'\\}$;
 
-***resultados possíveis do lançamento de um dado***: ${1, 3, 5} \ #números \ ímpares$.
+***resultados possíveis do lançamento de um dado***: $\\{1, 3, 5\\} \ números \ ímpares$.
 
 ### <ins>*a importância das definições*</ins>
 #### <ins>*como tomar decisões sem saber o que se quer medir?*</ins>
