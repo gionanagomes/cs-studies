@@ -54,11 +54,7 @@
 #### <ins>*subconjunto do espaço amostral*</ins>
 ***resultado possível do lançamento de uma moeda***: $\\{'cara'\\}$;
 
-<<<<<<< HEAD
-***resultados possíveis do lançamento de um dado***: ${1, 3, 5} \ números \ ímpares$.
-=======
 ***resultados possíveis do lançamento de um dado***: $\\{1, 3, 5\\} \ números \ ímpares$.
->>>>>>> de21a28c2fffeb732bfde3954c837051a683cc5c
 
 ### <ins>*a importância das definições*</ins>
 #### <ins>*como tomar decisões sem saber o que se quer medir?*</ins>
